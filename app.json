@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "PPDM - Mobile",
+    "slug": "ppdm-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,14 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.minyonhee.ppdmmobile"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.minyonhee.ppdmmobile"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +39,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "354159b1-e6a8-4812-b964-425ad3e1d16f"
+      }
+    },
+    "owner": "minyonhee",
+    "updates": {
+      "url": "https://u.expo.dev/354159b1-e6a8-4812-b964-425ad3e1d16f"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
